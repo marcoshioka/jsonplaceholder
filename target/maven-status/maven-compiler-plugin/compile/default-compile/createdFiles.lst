@@ -1,0 +1,6 @@
+com/api/stepdefinition/Hooks.class
+com/api/stepdefinition/GetStepDefinition.class
+com/api/stepdefinition/PostStepDefinition.class
+com/api/stepdefinition/DeleteStepDefinition.class
+com/api/stepdefinition/PutStepDefinition.class
+com/api/stepdefinition/PatchStepDefinition.class

@@ -1,0 +1,3317 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-24T01:32:43.614Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8773000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Delete a resource",
+        "description": "",
+        "id": "delete;delete-a-resource;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2054000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1567928000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user deletes \u0027posts\u0027 with 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1544000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns response status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 463000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response should be empty \u0027\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027\u0027",
+                  "offset": 29
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@delete"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:45.298Z",
+        "before": [
+          {
+            "result": {
+              "duration": 882000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Delete a resource",
+        "description": "",
+        "id": "delete;delete-a-resource;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 779000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 443289000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user deletes \u0027posts\u0027 with 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns response status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response should be empty \u0027\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027\u0027",
+                  "offset": 29
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@delete"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:45.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 974000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Delete a resource",
+        "description": "",
+        "id": "delete;delete-a-resource;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 434492000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user deletes \u0027posts\u0027 with 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "3",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns response status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 504000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response should be empty \u0027\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027\u0027",
+                  "offset": 29
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@delete"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:46.197Z",
+        "before": [
+          {
+            "result": {
+              "duration": 902000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Delete a resource",
+        "description": "",
+        "id": "delete;delete-a-resource;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 593000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 470687000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user deletes \u0027posts\u0027 with 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "4",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 277000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns response status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 266000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response should be empty \u0027\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027\u0027",
+                  "offset": 29
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@delete"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:46.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1340000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Delete a resource",
+        "description": "",
+        "id": "delete;delete-a-resource;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 633000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 460672000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user deletes \u0027posts\u0027 with 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "5",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 269000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns response status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response should be empty \u0027\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027\u0027",
+                  "offset": 29
+                }
+              ],
+              "location": "com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@delete"
+          }
+        ]
+      }
+    ],
+    "name": "Delete",
+    "description": "",
+    "id": "delete",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/delete.feature",
+    "tags": [
+      {
+        "name": "@jsonplaceholder",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-24T01:32:47.151Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1161000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Retrieve resource",
+        "description": "",
+        "id": "get;retrieve-resource;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 425181000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 453667000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u00271\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00271\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 535000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027sunt aut facere repellat provident occaecati excepturi optio reprehenderit\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sunt aut facere repellat provident occaecati excepturi optio reprehenderit\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 511000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@get"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:48.046Z",
+        "before": [
+          {
+            "result": {
+              "duration": 878000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Retrieve resource",
+        "description": "",
+        "id": "get;retrieve-resource;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 478000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 429636000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 436344000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u002711\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002711\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027et ea vero quia laudantium autem\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027et ea vero quia laudantium autem\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@get"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:48.922Z",
+        "before": [
+          {
+            "result": {
+              "duration": 751000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Retrieve resource",
+        "description": "",
+        "id": "get;retrieve-resource;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 467000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 429752000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 429343000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u002722\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002722\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 417000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027dolor sint quo a velit explicabo quia nam\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027dolor sint quo a velit explicabo quia nam\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 140000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@get"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:49.789Z",
+        "before": [
+          {
+            "result": {
+              "duration": 712000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Retrieve resource",
+        "description": "",
+        "id": "get;retrieve-resource;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1176000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 457882000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 440732000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u002733\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002733\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 815000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027qui explicabo molestiae dolorem\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027qui explicabo molestiae dolorem\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 333000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@get"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:50.699Z",
+        "before": [
+          {
+            "result": {
+              "duration": 875000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Retrieve resource",
+        "description": "",
+        "id": "get;retrieve-resource;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 516000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 427042000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 429115000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u002744\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002744\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027optio dolor molestias sit\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027optio dolor molestias sit\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 210000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@get"
+          }
+        ]
+      }
+    ],
+    "name": "Get",
+    "description": "",
+    "id": "get",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/get.feature",
+    "tags": [
+      {
+        "name": "@jsonplaceholder",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-24T01:32:51.566Z",
+        "before": [
+          {
+            "result": {
+              "duration": 786000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Modify a resource partially",
+        "description": "",
+        "id": "patch;modify-a-resource-partially;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 482000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 423400000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445760000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u00271\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00271\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 345000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027sunt aut facere repellat provident occaecati excepturi optio reprehenderit\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sunt aut facere repellat provident occaecati excepturi optio reprehenderit\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763364000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user updates that \u0027posts\u0027 id 1 with just the name to \u0027Just title Updated with Patch 1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 22
+                },
+                {
+                  "val": "1",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027Just title Updated with Patch 1\u0027",
+                  "offset": 57
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the status received should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 542000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the 1 should be the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 4
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 739000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the title must be the updated \u0027Just title Updated with Patch 1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Just title Updated with Patch 1\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@patch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:53.215Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1006000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Modify a resource partially",
+        "description": "",
+        "id": "patch;modify-a-resource-partially;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 490000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 448748000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 439343000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u002711\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002711\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 545000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027et ea vero quia laudantium autem\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027et ea vero quia laudantium autem\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505476000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user updates that \u0027posts\u0027 id 11 with just the name to \u0027Just title Updated with Patch 2\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 22
+                },
+                {
+                  "val": "11",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027Just title Updated with Patch 2\u0027",
+                  "offset": 58
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 330000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the status received should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 801000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the 11 should be the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 4
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the title must be the updated \u0027Just title Updated with Patch 2\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Just title Updated with Patch 2\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@patch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:54.622Z",
+        "before": [
+          {
+            "result": {
+              "duration": 979000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Modify a resource partially",
+        "description": "",
+        "id": "patch;modify-a-resource-partially;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 406000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 425707000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 441120000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u002722\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002722\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 378000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027dolor sint quo a velit explicabo quia nam\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027dolor sint quo a velit explicabo quia nam\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 502316000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user updates that \u0027posts\u0027 id 22 with just the name to \u0027Just title Updated with Patch 3\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 22
+                },
+                {
+                  "val": "22",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027Just title Updated with Patch 3\u0027",
+                  "offset": 58
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the status received should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 425000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the 22 should be the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22",
+                  "offset": 4
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the title must be the updated \u0027Just title Updated with Patch 3\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Just title Updated with Patch 3\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@patch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:56.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 630000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Modify a resource partially",
+        "description": "",
+        "id": "patch;modify-a-resource-partially;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 468000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 447330000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 475964000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u002733\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002733\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 306000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027qui explicabo molestiae dolorem\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027qui explicabo molestiae dolorem\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480706000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user updates that \u0027posts\u0027 id 33 with just the name to \u0027Just title Updated with Patch 4\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 22
+                },
+                {
+                  "val": "33",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027Just title Updated with Patch 4\u0027",
+                  "offset": 58
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the status received should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 544000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the 33 should be the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "33",
+                  "offset": 4
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the title must be the updated \u0027Just title Updated with Patch 4\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Just title Updated with Patch 4\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@patch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:57.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 616000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Modify a resource partially",
+        "description": "",
+        "id": "patch;modify-a-resource-partially;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 429000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 452041000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user retrieves \u0027posts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 437433000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it uses the identification \u002744\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002744\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should returns \u0027optio dolor molestias sit\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027optio dolor molestias sit\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478459000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user updates that \u0027posts\u0027 id 44 with just the name to \u0027Just title Updated with Patch 5\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 22
+                },
+                {
+                  "val": "44",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027Just title Updated with Patch 5\u0027",
+                  "offset": 58
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the status received should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 405000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the 44 should be the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44",
+                  "offset": 4
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the title must be the updated \u0027Just title Updated with Patch 5\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Just title Updated with Patch 5\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@patch"
+          }
+        ]
+      }
+    ],
+    "name": "Patch",
+    "description": "",
+    "id": "patch",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/patch.feature",
+    "tags": [
+      {
+        "name": "@jsonplaceholder",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-24T01:32:58.791Z",
+        "before": [
+          {
+            "result": {
+              "duration": 676000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Create new resource",
+        "description": "",
+        "id": "post;create-new-resource;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 549220000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user creates \u0027posts\u0027, with name \u0027Title 1\u0027, message \u0027This is the first body\u0027 and id 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "\u0027Title 1\u0027",
+                  "offset": 36
+                },
+                {
+                  "val": "\u0027This is the first body\u0027",
+                  "offset": 55
+                },
+                {
+                  "val": "1",
+                  "offset": 87
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it gets status 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 15
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1022000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains the same name \u0027Title 1\u0027, message \u0027This is the first body\u0027 and id 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 1\u0027",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027This is the first body\u0027",
+                  "offset": 52
+                },
+                {
+                  "val": "1",
+                  "offset": 84
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@post"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:59.350Z",
+        "before": [
+          {
+            "result": {
+              "duration": 642000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Create new resource",
+        "description": "",
+        "id": "post;create-new-resource;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 507000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 489707000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user creates \u0027posts\u0027, with name \u0027Title 2\u0027, message \u0027This is the second body\u0027 and id 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "\u0027Title 2\u0027",
+                  "offset": 36
+                },
+                {
+                  "val": "\u0027This is the second body\u0027",
+                  "offset": 55
+                },
+                {
+                  "val": "2",
+                  "offset": 88
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it gets status 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 15
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains the same name \u0027Title 2\u0027, message \u0027This is the second body\u0027 and id 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 2\u0027",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027This is the second body\u0027",
+                  "offset": 52
+                },
+                {
+                  "val": "2",
+                  "offset": 85
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@post"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:32:59.846Z",
+        "before": [
+          {
+            "result": {
+              "duration": 628000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Create new resource",
+        "description": "",
+        "id": "post;create-new-resource;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 563000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 505135000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user creates \u0027posts\u0027, with name \u0027Title 3\u0027, message \u0027This is the third body\u0027 and id 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "\u0027Title 3\u0027",
+                  "offset": 36
+                },
+                {
+                  "val": "\u0027This is the third body\u0027",
+                  "offset": 55
+                },
+                {
+                  "val": "3",
+                  "offset": 87
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 301000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it gets status 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 15
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains the same name \u0027Title 3\u0027, message \u0027This is the third body\u0027 and id 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 3\u0027",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027This is the third body\u0027",
+                  "offset": 52
+                },
+                {
+                  "val": "3",
+                  "offset": 84
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@post"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:33:00.377Z",
+        "before": [
+          {
+            "result": {
+              "duration": 628000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Create new resource",
+        "description": "",
+        "id": "post;create-new-resource;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 757000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 482193000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user creates \u0027posts\u0027, with name \u0027Title 4\u0027, message \u0027This is the fourth body\u0027 and id 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "\u0027Title 4\u0027",
+                  "offset": 36
+                },
+                {
+                  "val": "\u0027This is the fourth body\u0027",
+                  "offset": 55
+                },
+                {
+                  "val": "4",
+                  "offset": 88
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it gets status 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 15
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 617000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains the same name \u0027Title 4\u0027, message \u0027This is the fourth body\u0027 and id 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 4\u0027",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027This is the fourth body\u0027",
+                  "offset": 52
+                },
+                {
+                  "val": "4",
+                  "offset": 85
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@post"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:33:00.868Z",
+        "before": [
+          {
+            "result": {
+              "duration": 646000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Create new resource",
+        "description": "",
+        "id": "post;create-new-resource;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 641000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 480236000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user creates \u0027posts\u0027, with name \u0027Title 5\u0027, message \u0027This is the fifth body\u0027 and id 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 17
+                },
+                {
+                  "val": "\u0027Title 5\u0027",
+                  "offset": 36
+                },
+                {
+                  "val": "\u0027This is the fifth body\u0027",
+                  "offset": 55
+                },
+                {
+                  "val": "5",
+                  "offset": 87
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it gets status 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 15
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains the same name \u0027Title 5\u0027, message \u0027This is the fifth body\u0027 and id 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 5\u0027",
+                  "offset": 33
+                },
+                {
+                  "val": "\u0027This is the fifth body\u0027",
+                  "offset": 52
+                },
+                {
+                  "val": "5",
+                  "offset": 84
+                }
+              ],
+              "location": "com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@post"
+          }
+        ]
+      }
+    ],
+    "name": "Post",
+    "description": "",
+    "id": "post",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/post.feature",
+    "tags": [
+      {
+        "name": "@jsonplaceholder",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-24T01:33:01.355Z",
+        "before": [
+          {
+            "result": {
+              "duration": 647000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Update an existing resource",
+        "description": "",
+        "id": "put;update-an-existing-resource;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 537000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 659204000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user updates an existing \u0027posts\u0027, with name \u0027Title 1 updated\u0027, message \u0027This is the first body updated\u0027, user id 1 and id 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 29
+                },
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 48
+                },
+                {
+                  "val": "\u0027This is the first body updated\u0027",
+                  "offset": 75
+                },
+                {
+                  "val": "1",
+                  "offset": 117
+                },
+                {
+                  "val": "1",
+                  "offset": 126
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 336000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1667000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains name \u0027Title 1 updated\u0027, message \u0027This is the first body updated\u0027, user id 1 and id 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027This is the first body updated\u0027",
+                  "offset": 51
+                },
+                {
+                  "val": "1",
+                  "offset": 93
+                },
+                {
+                  "val": "1",
+                  "offset": 102
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@put"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:33:02.025Z",
+        "before": [
+          {
+            "result": {
+              "duration": 705000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Update an existing resource",
+        "description": "",
+        "id": "put;update-an-existing-resource;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 412000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 491994000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user updates an existing \u0027posts\u0027, with name \u0027Title 1 updated\u0027, message \u0027This is the second body updated\u0027, user id 2 and id 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 29
+                },
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 48
+                },
+                {
+                  "val": "\u0027This is the second body updated\u0027",
+                  "offset": 75
+                },
+                {
+                  "val": "2",
+                  "offset": 118
+                },
+                {
+                  "val": "2",
+                  "offset": 127
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 360000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains name \u0027Title 1 updated\u0027, message \u0027This is the second body updated\u0027, user id 2 and id 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027This is the second body updated\u0027",
+                  "offset": 51
+                },
+                {
+                  "val": "2",
+                  "offset": 94
+                },
+                {
+                  "val": "2",
+                  "offset": 103
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@put"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:33:02.525Z",
+        "before": [
+          {
+            "result": {
+              "duration": 639000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Update an existing resource",
+        "description": "",
+        "id": "put;update-an-existing-resource;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 419000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 608237000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user updates an existing \u0027posts\u0027, with name \u0027Title 1 updated\u0027, message \u0027This is the third body updated\u0027, user id 3 and id 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 29
+                },
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 48
+                },
+                {
+                  "val": "\u0027This is the third body updated\u0027",
+                  "offset": 75
+                },
+                {
+                  "val": "3",
+                  "offset": 117
+                },
+                {
+                  "val": "3",
+                  "offset": 126
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 287000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 568000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains name \u0027Title 1 updated\u0027, message \u0027This is the third body updated\u0027, user id 3 and id 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027This is the third body updated\u0027",
+                  "offset": 51
+                },
+                {
+                  "val": "3",
+                  "offset": 93
+                },
+                {
+                  "val": "3",
+                  "offset": 102
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@put"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:33:03.140Z",
+        "before": [
+          {
+            "result": {
+              "duration": 723000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Update an existing resource",
+        "description": "",
+        "id": "put;update-an-existing-resource;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 888000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 527239000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user updates an existing \u0027posts\u0027, with name \u0027Title 1 updated\u0027, message \u0027This is the fourth body updated\u0027, user id 4 and id 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 29
+                },
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 48
+                },
+                {
+                  "val": "\u0027This is the fourth body updated\u0027",
+                  "offset": 75
+                },
+                {
+                  "val": "4",
+                  "offset": 118
+                },
+                {
+                  "val": "4",
+                  "offset": 127
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 328000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 651000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains name \u0027Title 1 updated\u0027, message \u0027This is the fourth body updated\u0027, user id 4 and id 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027This is the fourth body updated\u0027",
+                  "offset": 51
+                },
+                {
+                  "val": "4",
+                  "offset": 94
+                },
+                {
+                  "val": "4",
+                  "offset": 103
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@put"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-24T01:33:03.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1107000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Update an existing resource",
+        "description": "",
+        "id": "put;update-an-existing-resource;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 460000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStatus(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 514682000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user updates an existing \u0027posts\u0027, with name \u0027Title 1 updated\u0027, message \u0027This is the fifth body updated\u0027, user id 5 and id 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027posts\u0027",
+                  "offset": 29
+                },
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 48
+                },
+                {
+                  "val": "\u0027This is the fifth body updated\u0027",
+                  "offset": 75
+                },
+                {
+                  "val": "5",
+                  "offset": 117
+                },
+                {
+                  "val": "5",
+                  "offset": 126
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it returns status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 18
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 428000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should contains name \u0027Title 1 updated\u0027, message \u0027This is the fifth body updated\u0027, user id 5 and id 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Title 1 updated\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027This is the fifth body updated\u0027",
+                  "offset": 51
+                },
+                {
+                  "val": "5",
+                  "offset": 93
+                },
+                {
+                  "val": "5",
+                  "offset": 102
+                }
+              ],
+              "location": "com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jsonplaceholder"
+          },
+          {
+            "name": "@put"
+          }
+        ]
+      }
+    ],
+    "name": "Put",
+    "description": "",
+    "id": "put",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/put.feature",
+    "tags": [
+      {
+        "name": "@jsonplaceholder",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

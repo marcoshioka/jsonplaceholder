@@ -1,0 +1,180 @@
+
+@jsonplaceholder @delete
+Scenario Outline: Delete a resource     # src/test/resources/features/delete.feature:12
+  Given the user deletes 'posts' with 1 # com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)
+  When it returns response status 200   # com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)
+  Then the response should be empty ''  # com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)
+
+@jsonplaceholder @delete
+Scenario Outline: Delete a resource     # src/test/resources/features/delete.feature:13
+  Given the user deletes 'posts' with 2 # com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)
+  When it returns response status 200   # com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)
+  Then the response should be empty ''  # com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)
+
+@jsonplaceholder @delete
+Scenario Outline: Delete a resource     # src/test/resources/features/delete.feature:14
+  Given the user deletes 'posts' with 3 # com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)
+  When it returns response status 200   # com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)
+  Then the response should be empty ''  # com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)
+
+@jsonplaceholder @delete
+Scenario Outline: Delete a resource     # src/test/resources/features/delete.feature:15
+  Given the user deletes 'posts' with 4 # com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)
+  When it returns response status 200   # com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)
+  Then the response should be empty ''  # com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)
+
+@jsonplaceholder @delete
+Scenario Outline: Delete a resource     # src/test/resources/features/delete.feature:16
+  Given the user deletes 'posts' with 5 # com.api.stepdefinition.DeleteStepDefinition.theUserDeletesWith(java.lang.String,java.lang.Integer)
+  When it returns response status 200   # com.api.stepdefinition.DeleteStepDefinition.itReturnsResponseStatus(java.lang.Integer)
+  Then the response should be empty ''  # com.api.stepdefinition.DeleteStepDefinition.theResponseShouldBeEmpty(java.lang.String)
+
+@jsonplaceholder @get
+Scenario Outline: Retrieve resource                                                                   # src/test/resources/features/get.feature:13
+  Given the user retrieves 'posts'                                                                    # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  When it uses the identification '1'                                                                 # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  Then it should returns 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit' # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                                                                      # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+
+@jsonplaceholder @get
+Scenario Outline: Retrieve resource                         # src/test/resources/features/get.feature:14
+  Given the user retrieves 'posts'                          # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  When it uses the identification '11'                      # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  Then it should returns 'et ea vero quia laudantium autem' # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                            # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+
+@jsonplaceholder @get
+Scenario Outline: Retrieve resource                                  # src/test/resources/features/get.feature:15
+  Given the user retrieves 'posts'                                   # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  When it uses the identification '22'                               # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  Then it should returns 'dolor sint quo a velit explicabo quia nam' # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                                     # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+
+@jsonplaceholder @get
+Scenario Outline: Retrieve resource                        # src/test/resources/features/get.feature:16
+  Given the user retrieves 'posts'                         # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  When it uses the identification '33'                     # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  Then it should returns 'qui explicabo molestiae dolorem' # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                           # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+
+@jsonplaceholder @get
+Scenario Outline: Retrieve resource                  # src/test/resources/features/get.feature:17
+  Given the user retrieves 'posts'                   # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  When it uses the identification '44'               # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  Then it should returns 'optio dolor molestias sit' # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                     # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+
+@jsonplaceholder @patch
+Scenario Outline: Modify a resource partially                                                        # src/test/resources/features/patch.feature:17
+  Given the user retrieves 'posts'                                                                   # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  And it uses the identification '1'                                                                 # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  And it should returns 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit' # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                                                                     # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+  When the user updates that 'posts' id 1 with just the name to 'Just title Updated with Patch 1'    # com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)
+  Then the status received should be 200                                                             # com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)
+  And the 1 should be the same                                                                       # com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)
+  But the title must be the updated 'Just title Updated with Patch 1'                                # com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)
+
+@jsonplaceholder @patch
+Scenario Outline: Modify a resource partially                                                      # src/test/resources/features/patch.feature:18
+  Given the user retrieves 'posts'                                                                 # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  And it uses the identification '11'                                                              # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  And it should returns 'et ea vero quia laudantium autem'                                         # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                                                                   # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+  When the user updates that 'posts' id 11 with just the name to 'Just title Updated with Patch 2' # com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)
+  Then the status received should be 200                                                           # com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)
+  And the 11 should be the same                                                                    # com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)
+  But the title must be the updated 'Just title Updated with Patch 2'                              # com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)
+
+@jsonplaceholder @patch
+Scenario Outline: Modify a resource partially                                                      # src/test/resources/features/patch.feature:19
+  Given the user retrieves 'posts'                                                                 # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  And it uses the identification '22'                                                              # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  And it should returns 'dolor sint quo a velit explicabo quia nam'                                # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                                                                   # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+  When the user updates that 'posts' id 22 with just the name to 'Just title Updated with Patch 3' # com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)
+  Then the status received should be 200                                                           # com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)
+  And the 22 should be the same                                                                    # com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)
+  But the title must be the updated 'Just title Updated with Patch 3'                              # com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)
+
+@jsonplaceholder @patch
+Scenario Outline: Modify a resource partially                                                      # src/test/resources/features/patch.feature:20
+  Given the user retrieves 'posts'                                                                 # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  And it uses the identification '33'                                                              # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  And it should returns 'qui explicabo molestiae dolorem'                                          # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                                                                   # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+  When the user updates that 'posts' id 33 with just the name to 'Just title Updated with Patch 4' # com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)
+  Then the status received should be 200                                                           # com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)
+  And the 33 should be the same                                                                    # com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)
+  But the title must be the updated 'Just title Updated with Patch 4'                              # com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)
+
+@jsonplaceholder @patch
+Scenario Outline: Modify a resource partially                                                      # src/test/resources/features/patch.feature:21
+  Given the user retrieves 'posts'                                                                 # com.api.stepdefinition.GetStepDefinition.theUserRetrieves(java.lang.String)
+  And it uses the identification '44'                                                              # com.api.stepdefinition.GetStepDefinition.itUsesTheIdentification(java.lang.String)
+  And it should returns 'optio dolor molestias sit'                                                # com.api.stepdefinition.GetStepDefinition.itShouldReturns(java.lang.String)
+  And status 200                                                                                   # com.api.stepdefinition.GetStepDefinition.status(java.lang.Integer)
+  When the user updates that 'posts' id 44 with just the name to 'Just title Updated with Patch 5' # com.api.stepdefinition.PatchStepDefinition.theUserUpdatesThatIdWithJustTheNameTo(java.lang.String,java.lang.Integer,java.lang.String)
+  Then the status received should be 200                                                           # com.api.stepdefinition.PatchStepDefinition.theStatusReceivedShouldBe(java.lang.Integer)
+  And the 44 should be the same                                                                    # com.api.stepdefinition.PatchStepDefinition.theShouldBeTheSame(java.lang.Integer)
+  But the title must be the updated 'Just title Updated with Patch 5'                              # com.api.stepdefinition.PatchStepDefinition.theTitleMustBeTheUpdated(java.lang.String)
+
+@jsonplaceholder @post
+Scenario Outline: Create new resource                                                            # src/test/resources/features/post.feature:12
+  Given the user creates 'posts', with name 'Title 1', message 'This is the first body' and id 1 # com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+  When it gets status 201                                                                        # com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)
+  Then it should contains the same name 'Title 1', message 'This is the first body' and id 1     # com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)
+
+@jsonplaceholder @post
+Scenario Outline: Create new resource                                                             # src/test/resources/features/post.feature:13
+  Given the user creates 'posts', with name 'Title 2', message 'This is the second body' and id 2 # com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+  When it gets status 201                                                                         # com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)
+  Then it should contains the same name 'Title 2', message 'This is the second body' and id 2     # com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)
+
+@jsonplaceholder @post
+Scenario Outline: Create new resource                                                            # src/test/resources/features/post.feature:14
+  Given the user creates 'posts', with name 'Title 3', message 'This is the third body' and id 3 # com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+  When it gets status 201                                                                        # com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)
+  Then it should contains the same name 'Title 3', message 'This is the third body' and id 3     # com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)
+
+@jsonplaceholder @post
+Scenario Outline: Create new resource                                                             # src/test/resources/features/post.feature:15
+  Given the user creates 'posts', with name 'Title 4', message 'This is the fourth body' and id 4 # com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+  When it gets status 201                                                                         # com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)
+  Then it should contains the same name 'Title 4', message 'This is the fourth body' and id 4     # com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)
+
+@jsonplaceholder @post
+Scenario Outline: Create new resource                                                            # src/test/resources/features/post.feature:16
+  Given the user creates 'posts', with name 'Title 5', message 'This is the fifth body' and id 5 # com.api.stepdefinition.PostStepDefinition.theUserCreatesWithNameMessageAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+  When it gets status 201                                                                        # com.api.stepdefinition.PostStepDefinition.itGetsStatus(java.lang.Integer)
+  Then it should contains the same name 'Title 5', message 'This is the fifth body' and id 5     # com.api.stepdefinition.PostStepDefinition.itShouldContainsTheSameNameMessageAndId(java.lang.String,java.lang.String,java.lang.Integer)
+
+@jsonplaceholder @put
+Scenario Outline: Update an existing resource                                                                                           # src/test/resources/features/put.feature:12
+  Given the user updates an existing 'posts', with name 'Title 1 updated', message 'This is the first body updated', user id 1 and id 1 # com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+  When it returns status 200                                                                                                            # com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)
+  Then it should contains name 'Title 1 updated', message 'This is the first body updated', user id 1 and id 1                          # com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+
+@jsonplaceholder @put
+Scenario Outline: Update an existing resource                                                                                            # src/test/resources/features/put.feature:13
+  Given the user updates an existing 'posts', with name 'Title 1 updated', message 'This is the second body updated', user id 2 and id 2 # com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+  When it returns status 200                                                                                                             # com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)
+  Then it should contains name 'Title 1 updated', message 'This is the second body updated', user id 2 and id 2                          # com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+
+@jsonplaceholder @put
+Scenario Outline: Update an existing resource                                                                                           # src/test/resources/features/put.feature:14
+  Given the user updates an existing 'posts', with name 'Title 1 updated', message 'This is the third body updated', user id 3 and id 3 # com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+  When it returns status 200                                                                                                            # com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)
+  Then it should contains name 'Title 1 updated', message 'This is the third body updated', user id 3 and id 3                          # com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+
+@jsonplaceholder @put
+Scenario Outline: Update an existing resource                                                                                            # src/test/resources/features/put.feature:15
+  Given the user updates an existing 'posts', with name 'Title 1 updated', message 'This is the fourth body updated', user id 4 and id 4 # com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+  When it returns status 200                                                                                                             # com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)
+  Then it should contains name 'Title 1 updated', message 'This is the fourth body updated', user id 4 and id 4                          # com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+
+@jsonplaceholder @put
+Scenario Outline: Update an existing resource                                                                                           # src/test/resources/features/put.feature:16
+  Given the user updates an existing 'posts', with name 'Title 1 updated', message 'This is the fifth body updated', user id 5 and id 5 # com.api.stepdefinition.PutStepDefinition.theUserUpdatesAnExistingWithNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+  When it returns status 200                                                                                                            # com.api.stepdefinition.PutStepDefinition.itReturnsStatus(java.lang.Integer)
+  Then it should contains name 'Title 1 updated', message 'This is the fifth body updated', user id 5 and id 5                          # com.api.stepdefinition.PutStepDefinition.itShouldContainsNameMessageUserIdAndId(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
